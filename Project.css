@@ -294,3 +294,73 @@
      width:  100%;
      }
      
+     /* Group 4 */
+    
+    
+    .contain-4{
+        max-width: 1180px;
+     }
+     .group4{
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 371px;
+     
+      }
+     
+      .group4__text{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     margin-right: 80px;
+     margin-left: 45px;
+     
+        }
+     
+     .main4-text{ 
+     font-family: 'Playfair Display', serif;
+     margin: 0 auto;
+     font-weight: 700;
+     letter-spacing: 0em;
+     text-align: left; 
+     font-style: normal;
+     font-weight: bold;
+     font-size: 36px;
+      line-height: 50px;
+     color: #000000;
+     padding-bottom:  20px; 
+     margin:  0 0;
+     
+      }
+           
+     .secondary4-text{
+     font-family: 'Mulish', sans-serif;
+     font-style: normal;
+     font-weight: 300;
+     font-size: 17px;
+     line-height: 30px;
+     letter-spacing: 0em;
+     text-align: left;
+     color: #7D7987;
+     margin: 0 0 ;
+     padding-bottom: 35px;
+     
+     }
+           
+     .Download {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 8px;
+     background: #FB8F1D;
+     border: 1px solid #FB8F1D;
+     cursor: pointer;
+     color: #ffffff;
+     font-family: 'Inter', sans-serif;
+     font-weight: 600;
+     font-size: 16px;
+     padding: 15px 45px ;
+     
+      }
+     
