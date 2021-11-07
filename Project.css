@@ -1,0 +1,67 @@
+/* Header */
+
+.contain-header{
+    margin-top: 35px;
+    max-width: 1301px;
+    position: relative;
+    justify-content: space-between;
+    }
+    
+    .header {   
+       display: flex;
+       justify-content: space-between;
+       text-align: center;
+       padding-left: 28px;
+       padding-right: 54px;
+       padding-bottom: 109px;
+    }
+    
+    .navigation_list {
+       display: flex;
+       list-style: none;
+       align-items: baseline;
+      
+       margin: 0 auto;
+    }
+     .navigation_link{
+        padding-right: 35px;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        color: #202336;
+    
+     }
+     
+    .Login {
+    padding: 15px 46px;   
+    border: 1px solid #FB8F1D;
+    color: #FB8F1D;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    margin-right: 18px;
+       }
+    
+    .Register {
+    background: #FB8F1D;
+    border: 1px solid #FB8F1D; 
+    border-radius: 8px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 15px 46px;
+    }
+    
+    .navigation__btn{
+    display: none;
+    }
