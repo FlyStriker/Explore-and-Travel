@@ -469,3 +469,99 @@
         z-index: -1;
      }
      
+     /* group6 */
+    
+    
+    .contain-6{
+    
+        max-width: 1222px;
+        padding-bottom: 196px;
+     }
+     
+      .group6{
+     position: relative;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+      }
+     
+      .group6__inner{
+     display: flex;
+     align-items: baseline;
+     justify-content: space-between;
+      }
+     
+      .group6__title{
+        font-family: 'Playfair Display', serif;;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-right: 560px;
+        margin: 0 0;
+        padding-bottom: 56px;
+      }
+     
+      .group6__link-inner{
+         
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 60px;
+        color: #FB8F1D;
+         }
+           
+        .group6__link-inner::after{
+        content: '';
+         width: 6px;
+        height: 11px;
+         background-image:url(./image/Vector1.png);
+         margin-left: 6px;
+        }
+     
+      .group6__stories{
+        
+         max-width: 1124px;
+         display: flex;
+         align-items: center;
+     justify-content: space-between;
+     flex-direction: row;
+        } 
+     
+        .main_txt{
+           font-family: 'Inter', sans-serif;
+           font-size: 19px;
+           font-style: normal;
+           font-weight: 700;
+           line-height: 30px;
+           letter-spacing: 0em;
+           text-align: left;
+           margin: 0 0;
+        }
+     
+        .secondary_txt{
+           font-family: 'Inter', sans-serif;
+           font-size: 15px;
+           font-style: normal;
+           font-weight: 400;
+           line-height: 26px;
+           letter-spacing: 0em;
+           text-align: left;
+           margin: 0 0;
+        }
+     
+        .group6_link{
+           font-family: 'Inter', sans-serif;
+           font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+           line-height: 28px;
+           color: #FB8F1D;
+        }
+     
